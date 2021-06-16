@@ -59,6 +59,7 @@ class _FinalScreenState extends State<FinalScreen> {
         body: Padding(
           padding: EdgeInsets.symmetric(horizontal: 5.0),
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
               SizedBox(

@@ -144,20 +144,27 @@ class _TokenScreenState extends State<TokenScreen> {
                       color: Color(0xff692B7E),
                     )
                   : Padding(
-                      padding: EdgeInsets.symmetric(vertical: 18.0),
+                      padding: EdgeInsets.symmetric(
+                          vertical: 18.0, horizontal: 26.0),
                       child: Visibility(
                         visible: isVisible,
                         child: Container(
                           decoration: kTokenContainer,
                           child: Column(
                             children: <Widget>[
-                              Text(
-                                'Token',
-                                style: kDataTextStyle,
+                              Padding(
+                                padding: EdgeInsets.only(top: 11.0),
+                                child: Text(
+                                  'Token',
+                                  style: kDataTextStyle,
+                                ),
                               ),
-                              Text(
-                                '$token',
-                                style: kTokenTextStyle,
+                              Padding(
+                                padding: EdgeInsets.all(20.0),
+                                child: Text(
+                                  '$token',
+                                  style: kTokenTextStyle,
+                                ),
                               ),
                             ],
                           ),

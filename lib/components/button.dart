@@ -11,7 +11,7 @@ class Button extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.only(bottom: 11.0),
+      padding: EdgeInsets.only(bottom: 15.0),
       child: Material(
         color: Color(0xff692B7E),
         borderRadius: BorderRadius.all(Radius.circular(8.0)),
